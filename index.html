@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcana Siete - Full Day Termas</title>
+    <style>
+        :root {
+            --verde-arcana: #1a3a34; /* Color principal del logo */
+            --beige-fondo: #fdf8f2;  /* Fondo beige solicitado */
+            --dorado-suave: #d4af37;
+            --texto: #333;
+            --blanco: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--texto);
+            line-height: 1.6;
+            background-color: var(--beige-fondo);
+        }
+
+        /* Botón Flotante WhatsApp */
+        .wpp-flotante {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+        .wpp-flotante:hover { transform: scale(1.1); }
+
+        header {
+            background: linear-gradient(rgba(26, 58, 52, 0.7), rgba(26, 58, 52, 0.7)), 
+                        url('REEMPLAZAR_CON_URL_DE_IMAGEN_PORTADA');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .container { max-width: 850px; margin: auto; padding: 40px 20px; }
+        
+        h1 { font-size: 2.5rem; margin-bottom: 15px; }
+        h2 { color: var(--verde-arcana); border-bottom: 2px solid var(--dorado-suave); display: inline-block; margin-bottom: 25px; }
+
+        /* Secciones de Fotos */
+        .foto-container {
+            width: 100%;
+            margin: 30px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            background: #eee;
+        }
+        .foto-container img { width: 100%; display: block; object-fit: cover; max-height: 500px; }
+
+        .card {
+            background: var(--blanco);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+        }
+
+        .metodo-pago {
+            background: #eef5f3;
+            border: 1px solid var(--verde-arcana);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 10px;
+        }
+
+        table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: var(--verde-arcana); color: white; }
+
+        .btn-principal {
+            background: var(--verde-arcana);
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer { background: var(--verde-arcana); color: white; text-align: center; padding: 50px 20px; margin-top: 50px; }
+        footer a { color: white; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <a href="https://wa.me/541153137735?text=Hola!%20Me%20gustaria%20mas%20info%20sobre%20el%20Full%20Day%20Tour%20Termas%20de%20Gualeguaychú" class="wpp-flotante" target="_blank">
+        <span style="font-size: 24px;">💬</span>
+    </a>
+
+    <header>
+        <h1>Full Day Tour Termas de Gualeguaychú</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">Una pausa para reconectar. Un día para salir de la rutina, bajar el ritmo y volver a vos.</p>
+        <a href="https://wa.me/541153137735?text=Hola!%20Me%20gustaria%20mas%20info%20sobre%20el%20Full%20Day%20Tour%20Termas%20de%20Gualeguaychú" class="btn-principal" target="_blank">Reservar mi lugar</a>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h2>La Experiencia</h2>
+            <p>Disfrutá del agua caliente, la naturaleza y un espacio pensado para reconectar con el cuerpo y la calma. Una escapada simple, cercana y necesaria.</p>
+            
+            <div class="foto-container">
+                <img src="REEMPLAZAR_CON_LINK_FOTO_TERMAS" alt="Termas de Gualeguaychú">
+            </div>
+        </section>
+
+        <section>
+            <h2>¿Qué incluye?</h2>
+            <div class="card">
+                <ul style="padding-left: 20px;">
+                    <li>Traslado ida y vuelta desde Buenos Aires [cite: 10]</li>
+                    <li>Entrada a Termas de Gualeguaychú [cite: 11]</li>
+                    <li>Snacks durante el viaje [cite: 12]</li>
+                    <li>Lectura de Arcano de Nacimiento [cite: 13]</li>
+                    <li>Coordinación durante toda la experiencia [cite: 14]</li>
+                </ul>
+            </div>
+
+            <div class="foto-container">
+                <img src="REEMPLAZAR_CON_LINK_FOTO_CARTAS" alt="Lectura de Arcanos Arcana Siete">
+            </div>
+        </section>
+
+        <section>
+            <h2>Método de Pago</h2>
+            <div class="metodo-pago">
+                <p><strong>Transferencia Bancaria.</strong></p>
+                <p>Ofrecemos planes de dos y tres pagos, ¡consulten por WhatsApp!</p>
+            </div>
+        </section>
+
+        <section style="margin-top: 40px;">
+            <h2>Próxima Salida</h2>
+            <p><strong>Sábado 13 de Junio</strong> [cite: 17, 37]</p>
+            <table>
+                <thead>
+                    <tr><th>Punto de Salida [cite: 15]</th><th>Horario [cite: 16]</th><th>Zona [cite: 16]</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Av. Independencia y Jujuy</td><td>06:00 HS</td><td>CABA</td></tr>
+                    <tr><td>Bingo Ciudadela</td><td>06:30 HS</td><td>AVELLANEDA</td></tr>
+                    <tr><td>Parador El Turista</td><td>07:00 HS</td><td>PACHECO</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section style="margin-top: 40px;">
+            <h2>Políticas de Cancelación [cite: 30]</h2>
+            <div style="background: #fff3f3; padding: 20px; border-left: 5px solid #e74c3c; border-radius: 5px;">
+                <p>• Hasta el 15 de abril: 30% de reembolso [cite: 31]</p>
+                <p>• Del 16 de abril al 15 de mayo: 20% de reembolso [cite: 32]</p>
+                <p>• Después del 15 de mayo: No reembolsable [cite: 33]</p>
+                <p><em>* El lugar puede ser transferido a otra persona avisando con anticipación. [cite: 34]</em></p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p style="font-style: italic; font-size: 1.1rem; margin-bottom: 25px;">"A veces lo único que necesitamos es un día distinto. Te invitamos a regalarte esta pausa." [cite: 35, 36]</p>
+        <p>
+            Instagram: <a href="https://www.instagram.com/arcanasiete" target="_blank">@arcanasiete</a> [cite: 21, 41] | 
+            WhatsApp: <a href="https://wa.me/541153137735?text=Hola!%20Me%20gustaria%20mas%20info%20sobre%20el%20Full%20Day%20Tour%20Termas%20de%20Gualeguaychú" target="_blank">11-5313-7735</a> [cite: 19, 39]
+        </p>
+    </footer>
+
+</body>
+</html>
